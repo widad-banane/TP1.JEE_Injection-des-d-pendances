@@ -11,6 +11,7 @@ public class PresentationV1 {
         DaoImpl d=new DaoImpl();
         MetierImpl metier = new MetierImpl(d);//Injection via le constructeur
         //metier.setDao(d); //Injection via la setter
+
         System.out.println("RES="+metier.calcul());
     }
 }

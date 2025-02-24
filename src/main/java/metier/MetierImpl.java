@@ -8,6 +8,7 @@ public class MetierImpl implements IMetier {
     private IDao dao;
 
     public MetierImpl() {
+
     }
 
     public MetierImpl(IDao dao) {
